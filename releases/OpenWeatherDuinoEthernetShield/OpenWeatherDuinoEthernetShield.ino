@@ -11,7 +11,7 @@ https://github.com/Benjamin3992/OpenWeatherDuino
 #include <EthernetClient.h>
 #include <SFE_BMP180.h>
 #include <Wire.h>
-#define server "www.openweathermap.org" //Do not change!
+#define server "api.openweathermap.org" //Do not change!
 #define CredBase64 "" //Enter here the BASE64 encoded Credentials in the form <Username>:<Password>
 #define DhtPin 2 //DHT Temperature and Humidity Sensor PIN goes here
 #define UploadCycle 30   //Time in minutes between two uploads goes here (30 minutes is a good idea)
